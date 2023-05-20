@@ -72,13 +72,14 @@ for i,product in enumerate(catalog):
 
         print("Quantity:{},Total:${}".format(quantity[i],Total_amount))
 
-    print("subtotal:${}".format(sub_Total))
-    print("Discount name:{}".format(discount_name))
-    print("Discount amount:${}".format(discount_amount))
-    print("Total Gift wrap fee:${}".format(gift_wrap_fee))
-    print("Total shipping fee:${}".format(shipping_fee))
-    print("Total:${}".format(total))
 
+print("\nThe details of Total Products are") 
+print("subtotal:${}".format(sub_Total))
+print("Discount name:{}".format(discount_name))
+print("Discount amount:${}".format(discount_amount))
+print("shipping fee:${}".format(shipping_fee))
+print("Gift wrap fee:${}".format(gift_wrap_fee))   
+print("Total:${}".format(total))
 
 
 
